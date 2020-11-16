@@ -1,0 +1,37 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: Sans-Serif;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+hr {
+  border-top-color: 1px solid #888;
+}
+input[type="text"] {
+  border: 1px solid #aaa;
+  border-radius: 4px 0 0 4px;
+  width: 400px;
+  height: 30px;
+  padding-left: 15px;
+  margin: 0;
+}
+input[type="submit"] {
+  background: #08c;
+  padding: 10px 20px;
+  border-radius: 0 4px 4px 0px;
+  border: none;
+  color: #fff;
+  margin-left: -5px;
+}
+blockquote {
+  border-left: 5px solid #ddd;
+  padding-right: 20px;
+}
+.bq-content {
+    margin-left: 20px;
+  }
